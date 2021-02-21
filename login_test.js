@@ -1,15 +1,24 @@
 const assert = require('assert');
-const mainPage = require("./pages/Main");
-Feature('login');
 
-Scenario('test something', ({ I, currentTasksPage ,mainPage }) => {
-    I.amOnPage('https://try.vikunja.io/login');
-    mainPage.login('demo','demo');
-    I.see('You can use the user');
-    I.see('Sign in to your Vikunja account');
-    currentTasksPage.gotoUpcoming();
-    //currentTasksPage.kukushechka('demo', 'demo');
-    //assert.equal(text1,text2);
-    I.see('Tasks from');
+Feature('Тесты для https://idemo.bspb.ru/');
 
+Scenario('1. Пользователь может авторизоваться', ({ I, mainPage }) => {
+    I.amOnPage('https://idemo.bspb.ru/');
+    mainPage.login();
+    I.see('Hello World!');
+});
+
+Scenario('2. Пользователь может получить выписку по счету', ({ I, mainPage, currentTasksPage }) => {
+    I.amOnPage('https://idemo.bspb.ru/');
+    mainPage.login();
+    currentTasksPage.getCountStatement();
+    I.see('Выписка');
+});
+
+Scenario('3. Пользователь может открыть вклад', ({ I, mainPage, currentTasksPage, depositsPage }) => {
+    I.amOnPage('https://idemo.bspb.ru/');
+    mainPage.login();
+    currentTasksPage.goToDeposits();
+    depositsPage.createAccount();
+    I.see('Открыть новый вклад');
 });

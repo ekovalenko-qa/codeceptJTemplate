@@ -16,12 +16,13 @@ exports.config = {
   },
   include: {
     I: './steps_file.js',
-    mainPage: './pages/Main.js',
-    currentTasksPage: './pages/currentTasks.js'
+    depositsPage: './pages/deposits.js',
+    currentTasksPage: './pages/current.js',
+    mainPage: './pages/main.js',
   },
   bootstrap: null,
   mocha: {},
-  name: 'codeceptJS',
+  name: 'codeceptJSTemplate',
   plugins: {
     pauseOnFail: {},
     retryFailedStep: {
