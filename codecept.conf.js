@@ -16,9 +16,10 @@ exports.config = {
   },
   include: {
     I: './steps_file.js',
+    currencyPage: './pages/currency.js',
     depositsPage: './pages/deposits.js',
-    currentTasksPage: './pages/current.js',
     mainPage: './pages/main.js',
+    myPage: './pages/my.js',
   },
   bootstrap: null,
   mocha: {},

@@ -12,6 +12,7 @@ module.exports = {
 
     // introducing methods
     login(username, password) {
+        I.amOnPage('https://idemo.bspb.ru/');
         I.fillField(this.fields.username, 'demo');
         I.click(this.fields.password)
         I.fillField(this.fields.password, 'demo');

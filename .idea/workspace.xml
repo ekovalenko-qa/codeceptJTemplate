@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa7bfdf8-e14b-4abb-9c38-acb37e50ed77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ui_test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codecept.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/codecept.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/login_test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/currentTasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/current.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/current.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,17 +33,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project_gitlab/TheMovieDB" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="login_test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/login_test.js" working-dir="$PROJECT_DIR$">
+    <configuration name="ui_test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ui_test.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.login_test.js" />
+        <item itemvalue="Node.js.ui_test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -57,11 +58,25 @@
       <workItem from="1612199110883" duration="6639000" />
       <workItem from="1612377368862" duration="1817000" />
       <workItem from="1612680014622" duration="137000" />
-      <workItem from="1613912174858" duration="4513000" />
+      <workItem from="1613912174858" duration="19717000" />
     </task>
+    <task id="LOCAL-00001" summary="start homework13">
+      <created>1613916770809</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613916770809</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="start homework13" />
+    <option name="LAST_COMMIT_MESSAGE" value="start homework13" />
   </component>
 </project>
