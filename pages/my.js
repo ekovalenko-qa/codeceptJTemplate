@@ -3,13 +3,13 @@ const { I } = inject();
 module.exports = {
     // setting locators
     fields: {
+        cards: '#cards-overview-index',
         count: '#accounts-index',
-        statementStatement: '#statements-statement',
         currentStatement: '#accounts-index',
         deposits: '#deposits-index',
-        personOffer: '#offers-button',
-        cards: '#cards-overview-index',
         goldCard: '#cards > li.row-as-link.cards.active > a > span.card-type.alias',
+        personOffer: '#offers-button',
+        statementStatement: '#statements-statement',
     },
     // introducing methods
     getCountStatement() {

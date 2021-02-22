@@ -6,9 +6,8 @@ module.exports = {
         password: '#login-form > div:nth-child(6) > input[type=password]',
         username: '#login-form > div:nth-child(5) > input[type=text]',
     },
-    loginButton: {css: '#login-button'},
     comeInButton: {css: '#login-otp-button'},
-    logoutButton: {css: '#logout-button'},
+    loginButton: {css: '#login-button'},
 
     // introducing methods
     login(username, password) {
@@ -18,8 +17,5 @@ module.exports = {
         I.fillField(this.fields.password, 'demo');
         I.click(this.loginButton);
         I.click(this.comeInButton);
-    },
-    logout() {
-        I.click(this.loginButton);
     },
 }
