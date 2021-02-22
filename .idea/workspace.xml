@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa7bfdf8-e14b-4abb-9c38-acb37e50ed77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ui_test.js" afterDir="false" />
+    <list default="true" id="fa7bfdf8-e14b-4abb-9c38-acb37e50ed77" name="Default Changelist" comment="add tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecept.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/codecept.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/current.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui_test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +54,7 @@
       <workItem from="1612199110883" duration="6639000" />
       <workItem from="1612377368862" duration="1817000" />
       <workItem from="1612680014622" duration="137000" />
-      <workItem from="1613912174858" duration="19717000" />
+      <workItem from="1613912174858" duration="25607000" />
     </task>
     <task id="LOCAL-00001" summary="start homework13">
       <created>1613916770809</created>
@@ -67,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613916770809</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add tests for deposit">
+      <created>1613987236466</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613987236466</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +80,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="start homework13" />
-    <option name="LAST_COMMIT_MESSAGE" value="start homework13" />
+    <MESSAGE value="add tests for deposit" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tests for deposit" />
   </component>
 </project>
